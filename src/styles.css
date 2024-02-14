@@ -1,0 +1,47 @@
+:root {
+    --firstcolor: #1abc9c;
+    --secondcolor: #2c3e50;
+}
+
+body{
+    background-color: white;
+}
+
+.navbar{
+    z-index: 99;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.rightDash{
+    position: absolute;
+    vertical-align: middle;
+    top: 45%;
+    left: 100%;
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.leftDash{
+    position: absolute;
+    vertical-align: middle;
+    top: 45%;
+    right: 100%;
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+}
+
+
+.myStar {
+    color: #fff;
+    position: relative;
+}
+
+.handle{
+    min-height: 90vh;
+    margin-top: 100px;
+}

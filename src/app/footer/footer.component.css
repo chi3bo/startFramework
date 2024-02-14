@@ -1,0 +1,32 @@
+.myFooter {
+    background-color: var(--secondcolor);
+    min-height: 250px;
+}
+
+.footerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.myIcon {
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    margin-inline: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.underFooter{
+    background-color: rgba(0, 0, 0, 0.403);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

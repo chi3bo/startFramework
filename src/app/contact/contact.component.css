@@ -1,0 +1,28 @@
+.myContent{
+    min-height: 700px;
+}
+
+.myInput{
+    width: 100%;
+    padding: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.153) ;
+    outline-color: transparent;
+
+}
+
+label{
+    position: absolute;
+    bottom: 60px;
+    opacity: 0;
+    transition: all 1s;
+    color: rgb(2, 198, 60);
+}
+
+.full{
+    bottom: 70px;
+    opacity:1;
+}
+

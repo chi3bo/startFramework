@@ -1,0 +1,35 @@
+<div class="container">
+<div class="myContent  d-flex  mt-5 align-items-center flex-column">
+    <div class="text-center pt-5">
+        <h1>PORTFOLIO COMPONENT</h1>
+    </div>
+
+    <div class="myStar position-relative p-1">
+        <div class="rightDash"></div>
+        <i class=" fa-solid fa-star "></i>
+        <div class="leftDash"></div>
+    </div>
+
+    <div class="row g-4" >
+        <div class="item col-md-4" *ngFor="let oneimg of imgList" (click)="showModal($event , im)">
+            <div class=" innerItem position-relative">
+                <img [src]='oneimg' alt="" width="100%">
+                <div class="layer">
+                    <i class="fa-solid fa-plus fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="myModal d-none" (click)="hideMe($event , im)" #im>
+        <div class="innerModal">
+            <img [src]="mySrc" alt="" width="100%">
+        </div>
+    </div>
+
+
+</div>
+
+</div>

@@ -1,0 +1,10 @@
+.myContent{
+    min-height: 90vh;
+    background-color: var(--firstcolor)  ;
+}
+
+.aboutDiv{
+    background-color: var(--firstcolor);
+}
+
+
